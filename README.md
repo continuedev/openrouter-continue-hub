@@ -1,3 +1,31 @@
-# @openrouter on hub.continue.dev
+# OpenRouter Continue Hub
 
-You will find more information in the [Continue 1.0 Partnership Guide](https://continuedev.notion.site/Continue-1-0-Partnership-Guide-1811d55165f7802686fcd0b70464e778).
+Auto-generates YAML blocks for OpenRouter models.
+
+## Update Models
+
+Edit `CURATED_MODELS` in `openrouter_models.py`:
+
+```python
+CURATED_MODELS = {
+    "openai/gpt-4o": "gpt-4o",
+    "anthropic/claude-3.5-sonnet": "claude-3.5-sonnet", 
+    # Add more models...
+}
+```
+
+Display names are auto-extracted from the API (text after `:` if present).
+
+## Run
+
+```bash
+# Generate all curated models
+python3 openrouter_models.py --summary
+
+# With API key (optional)
+OPENROUTER_API_KEY=your_key python3 openrouter_models.py --summary
+```
+
+## Publish
+
+Generated YAML files in `blocks/public/` are automatically published to hub.continue.dev.

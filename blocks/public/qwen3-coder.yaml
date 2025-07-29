@@ -1,0 +1,17 @@
+---
+name: Qwen3 Coder
+version: 1.0.0
+schema: v1
+models:
+  - name: Qwen3 Coder
+    provider: openrouter
+    model: qwen/qwen3-coder
+    apiKey: ${{ inputs.OPENROUTER_API_KEY }}
+    defaultCompletionOptions:
+      contextLength: 262144
+    capabilities:
+      - tool_use
+    roles:
+      - apply
+      - chat
+      - edit
