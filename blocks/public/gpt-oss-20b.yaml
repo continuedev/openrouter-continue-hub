@@ -1,14 +1,14 @@
 ---
-name: Kimi K2
+name: GPT OSS 20B
 version: 1.0.0
 schema: v1
 models:
-  - name: Kimi K2
+  - name: GPT OSS 20B
     provider: openrouter
-    model: moonshotai/kimi-k2
+    model: openai/gpt-oss-20b
     apiKey: ${{ inputs.OPENROUTER_API_KEY }}
     defaultCompletionOptions:
-      contextLength: 63000
+      contextLength: 131072
     capabilities:
       - tool_use
     roles:

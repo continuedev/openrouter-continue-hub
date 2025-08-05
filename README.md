@@ -19,6 +19,10 @@ Display names are auto-extracted from the API (text after `:` if present).
 ## Run
 
 ```bash
+python3 -m venv env
+
+python3 -m pip install -r requirements.txt
+
 # Generate all curated models
 python3 openrouter_models.py --summary
 
