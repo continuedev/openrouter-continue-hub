@@ -89,6 +89,10 @@ CURATED_MODELS = {
     
     # Moonshot Models
     "moonshotai/kimi-k2": "kimi-k2",
+
+    # OpenAI Models
+    "openai/gpt-oss-120b": "gpt-oss-120b",
+    "openai/gpt-oss-20b": "gpt-oss-20b",
     
     # Add more models as needed...
 }
