@@ -1,16 +1,14 @@
 ---
-name: gpt-oss-120b
-version: 1.1.0
+name: GLM 4.5
+version: 1.0.0
 schema: v1
 models:
-  - name: gpt-oss-120b
+  - name: GLM 4.5
     provider: openrouter
-    model: openai/gpt-oss-120b
+    model: z-ai/glm-4.5
     apiKey: ${{ inputs.OPENROUTER_API_KEY }}
     defaultCompletionOptions:
-      contextLength: 131000
-    capabilities:
-      - tool_use
+      contextLength: 131072
     roles:
       - apply
       - chat

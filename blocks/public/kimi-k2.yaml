@@ -1,11 +1,11 @@
 ---
 name: Kimi K2
-version: 1.0.0
+version: 1.1.0
 schema: v1
 models:
   - name: Kimi K2
     provider: openrouter
-    model: moonshotai/kimi-k2
+    model: moonshotai/kimi-k2-0905 # change back to kimi-k2 once redirect updated?
     apiKey: ${{ inputs.OPENROUTER_API_KEY }}
     defaultCompletionOptions:
       contextLength: 63000

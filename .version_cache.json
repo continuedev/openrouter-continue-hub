@@ -1,0 +1,38 @@
+{
+  "openai/gpt-oss-120b": {
+    "hash": "377bd659e0e947d58147318f0bbd00de",
+    "version": "1.1.0",
+    "filename": "gpt-oss-120b.yaml",
+    "name": "gpt-oss-120b"
+  },
+  "openai/gpt-oss-20b": {
+    "hash": "b01b4b5df2a8c765d4fb48495e37a8b5",
+    "version": "1.1.0",
+    "filename": "gpt-oss-20b.yaml",
+    "name": "gpt-oss-20b"
+  },
+  "qwen/qwen3-coder": {
+    "hash": "2253a273835cb41216d3dbe318f24ec5",
+    "version": "1.1.0",
+    "filename": "qwen3-coder.yaml",
+    "name": "Qwen3 Coder 480B A35B"
+  },
+  "moonshotai/kimi-k2": {
+    "hash": "740a37de6c79b4703f1fb359e5b3d4ae",
+    "version": "1.1.0",
+    "filename": "kimi-k2.yaml",
+    "name": "Kimi K2 0711"
+  },
+  "z-ai/glm-4.5": {
+    "hash": "892b8472295aedad9099617479826f32",
+    "version": "1.0.0",
+    "filename": "glm-4-5.yaml",
+    "name": "GLM 4.5"
+  },
+  "z-ai/glm-4.5-air": {
+    "hash": "133cf2d09ed46f8e8b485460ebc02f25",
+    "version": "1.0.0",
+    "filename": "glm-4-5-air.yaml",
+    "name": "GLM 4.5 Air"
+  }
+}
